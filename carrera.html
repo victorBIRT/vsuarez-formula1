@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La carrera | Madring 2026</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <!-- Cabecera de la página de la carrera -->
+    <header>
+        <h1>La carrera de Madring 2026</h1>
+        <p>Gran Premio de España de Fórmula 1</p>
+    </header>
+
+    <!-- Menú para navegar entre las tres páginas -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="circuito.html">El circuito</a></li>
+            <li><a href="carrera.html">La carrera</a></li>
+        </ul>
+    </nav>
+
+    <!-- Resumen de la carrera y lista del podio -->
+    <main>
+        <section>
+            <h2>Resumen de la carrera</h2>
+            <p>
+                El Gran Premio de España se disputó el 13 de septiembre
+                de 2026 en Madring, Madrid.
+            </p>
+            <p>
+                Kimi Antonelli consiguió la victoria, seguido de
+                Max Verstappen y Lando Norris.
+            </p>
+
+            <h2>El podio</h2>
+            <ol>
+                <li>Kimi Antonelli — Mercedes.</li>
+                <li>Max Verstappen — Red Bull Racing.</li>
+                <li>Lando Norris — McLaren.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Más información</h2>
+            <p>
+                Los resultados se han consultado en la web oficial
+                de Fórmula 1.
+            </p>
+            <p>
+                <a href="https://www.formula1.com/en/results/2026/races/1294/spain/race-result">
+                    Consultar los resultados oficiales de la carrera
+                </a>
+            </p>
+        </section>
+
+        <!-- Formulario de opinión con envío mediante correo -->
+        <section>
+            <h2>Tu opinión sobre la carrera</h2>
+            <p>
+                Para enviar tu opinión necesitas una aplicación
+                de correo configurada.
+            </p>
+
+            <form action="mailto:vsuarez@ikaslea.birt.eus"
+                  method="post"
+                  enctype="text/plain">
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>
+                    <label for="opinion">Tu opinión:</label>
+                    <textarea id="opinion"
+                              name="opinion"
+                              rows="5"
+                              required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie común: autoría y finalidad. -->
+    <footer>
+        <p>Tarea LMSMGI02.1 — BirtLH.</p>
+        <p>Autor: Víctor Suárez | Curso 2026-2027.</p>
+        <p>Evidentemente es un sitio no oficial, sin afiliación con Fórmula 1.</p>
+    </footer>
+</body>
+</html>
