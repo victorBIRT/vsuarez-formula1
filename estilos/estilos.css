@@ -1,1 +1,22 @@
+/* Aspecto general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+    margin: 30px;
+}
 
+/* Color de los títulos */
+h1, h2 {
+    color: #b00000;
+}
+
+/* Color de los enlaces */
+a {
+    color: #b00000;
+}
+
+/* Separación entre las opciones del menú */
+nav li {
+    margin-bottom: 10px;
+}
