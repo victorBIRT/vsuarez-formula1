@@ -20,3 +20,16 @@ a {
 nav li {
     margin-bottom: 10px;
 }
+
+/* Colocar las etiquetas encima de los campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Dar el mismo ancho a los campos del formulario */
+input, textarea {
+    width: 250px;
+    max-width: 100%;
+    padding: 5px;
+}
