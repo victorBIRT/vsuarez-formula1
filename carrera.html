@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>La carrera | Madring 2026</title>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js" defer></script>
 </head>
 <body>
     <!-- Cabecera de la página de la carrera -->
@@ -36,11 +37,14 @@
             </p>
 
             <h2>El podio</h2>
-            <ol>
+            <ol id="podio">
                 <li>Kimi Antonelli — Mercedes.</li>
                 <li>Max Verstappen — Red Bull Racing.</li>
                 <li>Lando Norris — McLaren.</li>
             </ol>
+            <button type="button" onclick="cambiarTamanoPodio()">
+                Aumentar el tamaño del texto del podio
+            </button>
         </section>
 
         <section>
