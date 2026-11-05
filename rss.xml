@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+    <title>Fórmula 1 - Novedades de vsuarez</title>
+
+    <link>https://victorbirt.github.io/vsuarez-formula1/index.html</link>
+
+    <description>
+      Novedades de mi sitio web sobre Fórmula 1:
+      información sobre el circuito y la carrera.
+    </description>
+
+    <language>es-ES</language>
+
+    <item>
+      <title>Actualización de la información del circuito</title>
+
+      <link>https://victorbirt.github.io/vsuarez-formula1/circuito.html</link>
+
+      <description>
+        Se ha actualizado la página del circuito.
+        Consulta la información disponible en esta sección
+        de mi web de Fórmula 1.
+      </description>
+
+     
+      <pubDate>Thu, 05 Nov 2026 13:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Actualización de la información de la carrera</title>
+
+      <link>https://victorbirt.github.io/vsuarez-formula1/carrera.html</link>
+
+      <description>
+        Se ha actualizado la página de la carrera.
+        Consulta las novedades publicadas en esta sección
+        de mi web de Fórmula 1.
+      </description>
+
+     
+      <pubDate>Thu, 05 Nov 2026 13:15:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>
